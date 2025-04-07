@@ -1,0 +1,126 @@
+:root {
+    --primary: #E84922;
+    --bg-color: #fff;
+    --text-color: #17162B;
+    --light-text-color: #758599;
+    --border-color: #05588E38;
+    --light-bg-color: #F9FAFB;
+    --links-color: #2f2f2f;
+    --font-mona: mona;
+    --para-lineheight: 1.4;
+}
+
+.dark-mode {
+    --bg-color: #17162B;
+    --text-color: #F9FAFB;
+    --light-text-color: #758599;
+    --border-color: #05588E38;
+    --light-bg-color: #2f2f2f;
+    --links-color: #F9FAFB;
+}
+
+@font-face {
+    font-family: mona;
+    src: url('../font/mona-sans/Mona-Sans.ttf');
+}
+
+.process__steps {
+    max-width: 1024px;
+    width: 100%;
+    margin: auto;
+}
+
+.process__step {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 56px;
+    margin-top: 56px;
+}
+
+.process__content {
+    width: 100%;
+}
+
+.process__img {
+    width: 100%;
+}
+
+.process__header,
+.process__title {
+    text-align: center;
+}
+
+.process__number,
+.process__number-mob {
+    width: 96px;
+    height: 96px;
+    flex-shrink: 0;
+    background: var(--bg-color);
+    border: 7px solid var(--light-bg-color);
+    border-radius: 50%;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: var(--font-mona);
+    color: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.process__number-mob {
+    display: none;
+}
+
+.process__content h3 {
+    font-size: 32px;
+    font-weight: 600;
+    font-family: var(--font-mona);
+    color: var(--text-color);
+    margin-bottom: 16px;
+}
+
+.process__content p {
+    font-family: var(--font-mona);
+    font-weight: 400;
+    color: var(--light-text-color);
+    line-height: var(--para-lineheight);
+}
+
+.process__img div {
+    width: 130px;
+    height: 130px;
+    border: 1px solid var(--border-color);
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+}
+
+.process__steps {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}
+
+.miter__line {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 7px;
+    height: 80%;
+    background: var(--light-bg-color);
+}
+
+.process__img-left div {
+    margin-left: auto;
+}
+
+.process__container {
+    border-bottom: 1px solid var(--border-color);
+}

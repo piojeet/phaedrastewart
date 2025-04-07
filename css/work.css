@@ -1,0 +1,126 @@
+:root {
+    --primary: #E84922;
+    --bg-color: #fff;
+    --text-color: #17162B;
+    --light-text-color: #758599;
+    --border-color: #05588E38;
+    --light-bg-color: #F9FAFB;
+    --links-color: #2f2f2f;
+    --font-mona: mona;
+    --para-lineheight: 1.4;
+}
+
+.dark-mode {
+    --bg-color: #17162B;
+    --text-color: #F9FAFB;
+    --light-text-color: #758599;
+    --border-color: #05588E38;
+    --light-bg-color: #2f2f2f;
+    --links-color: #F9FAFB;
+}
+
+@font-face {
+    font-family: mona;
+    src: url('../font/mona-sans/Mona-Sans.ttf');
+}
+
+.work__content {
+    /* height: 358px; */
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.work__section {
+    height: 388px;
+    align-content: center;
+    background: var(--light-bg-color);
+}
+
+.work__section {
+    position: relative;
+}
+
+.work__ellipse {
+    position: absolute;
+}
+
+.work__ellipse--1 {
+    left: 0;
+    top: 10%;
+}
+
+.work__ellipse--2 {
+    right: 0;
+    top: 50%;
+}
+
+.work__heading {
+    text-align: center;
+}
+
+.work__breadcrumb {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    font-family: var(--font-mona);
+    color: var(--text-color);
+    margin-top: 16px;
+}
+
+.breadcrumb__divider {
+    color: var(--primary);
+    font-weight: 600;
+}
+
+/* chat section */
+.chat__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.chat__content {
+    max-width: 850px;
+    width: 100%;
+}
+
+.chat__description {
+    font-family: var(--font-mona);
+    font-weight: 400;
+    color: var(--light-text-color);
+    line-height: var(--para-lineheight);
+    margin-top: 12px;
+}
+
+/* consult section */
+.consult__container {
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 80px;
+    position: relative;
+}
+
+.consult__header {
+    text-align: center;
+}
+
+.consult__title {
+    text-align: center;
+}
+
+.consult__cta {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.consult__phone {
+    position: absolute;
+    left: 0;
+    bottom: 10%;
+}
+
+.consult__email {
+    position: absolute;
+    top: 10%;
+    right: 0;
+}
