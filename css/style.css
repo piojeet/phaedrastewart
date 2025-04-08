@@ -176,7 +176,8 @@ header {
 .work__content,
 .chat__section,
 .consult__section,
-.process__section {
+.process__section,
+.project__section {
     max-width: 1440px;
     margin: 0 auto;
     padding: 0 80px;
@@ -191,7 +192,8 @@ header {
 .contact__container,
 .chat__container,
 .consult__container,
-.process__container {
+.process__container,
+.project__container {
     padding: 80px 0;
 }
 

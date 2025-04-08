@@ -1,0 +1,127 @@
+:root {
+    --primary: #E84922;
+    --bg-color: #fff;
+    --text-color: #17162B;
+    --light-text-color: #758599;
+    --border-color: #05588E38;
+    --light-bg-color: #F9FAFB;
+    --links-color: #2f2f2f;
+    --font-mona: mona;
+    --para-lineheight: 1.4;
+}
+
+.dark-mode {
+    --bg-color: #17162B;
+    --text-color: #F9FAFB;
+    --light-text-color: #758599;
+    --border-color: #05588E38;
+    --light-bg-color: #2f2f2f;
+    --links-color: #F9FAFB;
+}
+
+@font-face {
+    font-family: mona;
+    src: url('../font/mona-sans/Mona-Sans.ttf');
+}
+
+.project__desc {
+    font-family: var(--font-mona);
+    text-align: center;
+    color: var(--light-text-color);
+    max-width: 80ch;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 12px;
+}
+
+.project__case {
+    margin-top: 56px;
+}
+
+.project__cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid var(--border-color);
+    border-radius: 24px;
+    padding: 48px;
+}
+
+.project__category {
+    font-size: 14px;
+    font-family: var(--font-mona);
+    color: var(--light-text-color);
+    margin-bottom: 8px;
+}
+
+.project__name {
+    font-size: 32px;
+    font-weight: 600;
+    font-family: var(--font-mona);
+    color: var(--primary);
+    margin-bottom: 24px;
+}
+
+.project__subheading {
+    font-weight: 600;
+    font-family: var(--font-mona);
+    color: var(--text-color);
+    font-size: 16px;
+}
+
+.project__text {
+    font-size: 14px;
+    font-family: var(--font-mona);
+    color: var(--light-text-color);
+    margin-top: 8px;
+}
+
+.project__what-i-did,
+.project__results {
+    margin-top: 16px;
+}
+
+.project__list {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.project__item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.project__item p {
+    font-family: var(--font-mona);
+    color: var(--light-text-color);
+}
+
+.project__list {
+    margin-top: 8px;
+}
+
+.project__view {
+    background: var(--primary);
+    color: #fff;
+}
+
+.project__header-btn {
+    margin-top: 40px;
+}
+
+.project__image img {
+    max-width: 508px;
+    width: 100%;
+}
+
+.project__case {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.project__container {
+    border-bottom: 1px solid var(--border-color);
+}
