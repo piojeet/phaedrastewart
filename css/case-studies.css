@@ -32,6 +32,7 @@
     width: 100%;
     margin: 0 auto;
     margin-top: 12px;
+    line-height: var(--para-lineheight);
 }
 
 .project__case {
