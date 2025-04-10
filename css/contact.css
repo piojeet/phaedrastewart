@@ -1,0 +1,47 @@
+:root {
+    --primary: #E84922;
+    --bg-color: #fff;
+    --text-color: #17162B;
+    --light-text-color: #758599;
+    --border-color: #05588E38;
+    --light-bg-color: #F9FAFB;
+    --links-color: #2f2f2f;
+    --font-mona: mona;
+    --para-lineheight: 1.4;
+}
+
+.dark-mode {
+    --bg-color: #17162B;
+    --text-color: #F9FAFB;
+    --light-text-color: #758599;
+    --border-color: #05588E38;
+    --light-bg-color: #2f2f2f;
+    --links-color: #F9FAFB;
+}
+
+@font-face {
+    font-family: mona;
+    src: url('../font/mona-sans/Mona-Sans.ttf');
+}
+
+.contact__container-main {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 60px;
+    margin-top: 56px;
+}
+
+.contact__info-wrapper-main {
+border: 1px solid var(--border-color);
+height: fit-content;
+padding: 48px;
+border-radius: 24px;
+}
+
+.contact__details {
+    margin-top: 0;
+}
+
+.project__container {
+    border-bottom: 0;
+}

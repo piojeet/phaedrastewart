@@ -866,6 +866,7 @@ header {
     font-size: 16px;
     font-family: var(--font-mona);
     color: var(--light-text-color);
+    width: 100%;
 }
 
 .contact__select {
@@ -1221,6 +1222,10 @@ header {
     .menu__btn {
         display: flex;
     }
+
+    .contact__container-main {
+        gap:30px;
+      }
 }
 
 @media only screen and (max-width: 768px) {
@@ -1471,6 +1476,15 @@ header {
     .faq__question {
         font-size: 18px;
     }
+
+    .contact__container-main {
+        grid-template-columns: repeat(1,1fr);
+        gap:30px;
+      }
+
+      .contact__info-wrapper-main {
+        padding: 20px;
+      }
 }
 
 @media only screen and (max-width: 425px) {
@@ -1559,6 +1573,16 @@ header {
     .faq__answer {
         padding-left: 45px;
     }
+
+    .contact__value {
+        font-size: 12px;
+      }
+
+      .contact__icon {
+        width: 35px;
+        height: 35px;
+        padding: 9px;
+      }
 }
 
 @media only screen and (max-width: 375px) {
