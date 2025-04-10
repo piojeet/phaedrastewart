@@ -45,6 +45,11 @@
     border: 1px solid var(--border-color);
     border-radius: 24px;
     padding: 48px;
+    gap: 20px;
+}
+
+.project__cont-rev {
+    flex-direction: row-reverse;
 }
 
 .project__category {

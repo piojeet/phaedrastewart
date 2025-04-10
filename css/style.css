@@ -1123,7 +1123,8 @@ header {
     .work__content,
     .chat__section,
     .consult__section,
-    .process__section {
+    .process__section,
+    .project__section {
         padding: 0 40px;
     }
 
@@ -1134,7 +1135,8 @@ header {
     .skills__container,
     .testimonial__container,
     .contact__container,
-    .consult__container {
+    .consult__container,
+    .project__container {
         padding: 80px 0;
     }
 
@@ -1162,6 +1164,18 @@ header {
 
     .footer__top {
         padding: 40px 40px;
+    }
+
+    .project__cont {
+        padding: 20px;
+    }
+
+    .project__header-btn {
+        margin-top: 25px;
+    }
+
+    .project__name {
+        font-size: 27px;
     }
 }
 
@@ -1223,7 +1237,8 @@ header {
     .testimonial__container,
     .contact__container,
     .chat__container,
-    .process__container {
+    .process__container,
+    .project__container {
         padding: 60px 0;
     }
 
@@ -1299,7 +1314,8 @@ header {
     .work__content,
     .chat__section,
     .consult__section,
-    .process__section {
+    .process__section,
+    .project__section {
         padding: 0 20px;
     }
 
@@ -1439,6 +1455,22 @@ header {
     .chat__title {
         text-align: center;
     }
+
+    .project__cont {
+        flex-direction: column-reverse;
+    }
+
+    .project__name {
+        font-size: 23px;
+    }
+
+    .faq__wrapper {
+        padding: 1rem;
+    }
+
+    .faq__question {
+        font-size: 18px;
+    }
 }
 
 @media only screen and (max-width: 425px) {
@@ -1505,6 +1537,27 @@ header {
 
     .process__content h3 {
         font-size: 20px;
+    }
+
+    .project__item p {
+        font-size: 14px;
+    }
+
+    .faq__question {
+        font-size: 16px;
+    }
+
+    .faq__question {
+        padding: 8px;
+    }
+
+    .faq__answer-text {
+        padding-bottom: 8px;
+        padding-right: 8px;
+    }
+
+    .faq__answer {
+        padding-left: 45px;
     }
 }
 
