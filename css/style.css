@@ -869,6 +869,12 @@ header {
     width: 100%;
 }
 
+.contact__input:focus,
+.contact__select:focus,
+.contact__textarea:focus {
+    border-color: var(--text-color);
+}
+
 .contact__select {
     appearance: none;
     position: relative;
@@ -1102,6 +1108,28 @@ header {
     border-top-left-radius: 0;
 }
 
+.portfolio__image-wrapper {
+    height: 9vw;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.portfolio__image-wrapper img {
+    height: 100%;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 2100px) {
+    .portfolio__image-wrapper {
+        height: 10vw;
+    }
+}
+
+@media only screen and (max-width: 1700px) {
+    .portfolio__image-wrapper {
+        height: 15vw;
+    }
+}
 
 
 @media only screen and (max-width: 1024px) {
@@ -1177,6 +1205,12 @@ header {
 
     .project__name {
         font-size: 27px;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .portfolio__image-wrapper {
+        height: 22vw;
     }
 }
 
@@ -1485,6 +1519,12 @@ header {
       .contact__info-wrapper-main {
         padding: 20px;
       }
+}
+
+@media only screen and (max-width: 767px) {
+    .portfolio__image-wrapper {
+        height: 38vw;
+    }
 }
 
 @media only screen and (max-width: 425px) {
