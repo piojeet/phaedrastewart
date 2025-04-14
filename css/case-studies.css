@@ -21,8 +21,9 @@
 
 @font-face {
     font-family: mona;
-    src: url('../font/mona-sans/Mona-Sans.ttf');
+    src: url('../font/mona-sans/Mona-Sans.woff2');
 }
+
 
 .project__desc {
     font-family: var(--font-mona);
@@ -40,8 +41,14 @@
 }
 
 .project__cont {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     border: 1px solid var(--border-color);
     border-radius: 24px;
@@ -50,6 +57,9 @@
 }
 
 .project__cont-rev {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
     flex-direction: row-reverse;
 }
 
@@ -88,13 +98,22 @@
 }
 
 .project__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     gap: 7px;
 }
 
 .project__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     gap: 8px;
 }
@@ -123,7 +142,12 @@
 }
 
 .project__case {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     gap: 32px;
 }

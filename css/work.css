@@ -21,17 +21,18 @@
 
 @font-face {
     font-family: mona;
-    src: url('../font/mona-sans/Mona-Sans.ttf');
+    src: url('../font/mona-sans/Mona-Sans.woff2');
 }
 
+
 .work__content {
-    /* height: 358px; */
     padding-top: 80px;
     padding-bottom: 80px;
 }
 
 .work__section {
     height: 388px;
+    -ms-flex-line-pack: center;
     align-content: center;
     background: var(--light-bg-color);
 }
@@ -74,8 +75,14 @@
 
 /* chat section */
 .chat__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     border-bottom: 1px solid var(--border-color);
 }
